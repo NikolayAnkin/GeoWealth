@@ -17,7 +17,7 @@ public class ValidWordTest {
 
 		try {
 
-			ValidWordTest.ValidWord validWord = new ValidWordTest().new ValidWord();
+			ValidWord validWord = new ValidWordTest().new ValidWord();
 
 			String[] allWords = validWord.loadAllWords();
 
@@ -47,7 +47,7 @@ public class ValidWordTest {
 		 * @return
 		 * @throws IOException
 		 */
-		private String[] loadAllWords() throws IOException {
+		public String[] loadAllWords() throws IOException {
 
 			URL wordsUrl = new URL(
 					"https://raw.githubusercontent.com/nikiiv/JavaCodingTestOne/master/scrabble-words.txt");
