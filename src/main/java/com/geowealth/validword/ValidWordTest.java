@@ -68,7 +68,7 @@ public class ValidWordTest {
 		 * @param allWords
 		 * @return
 		 */
-		private List<String> findValidWords(String[] allWords) {
+		public List<String> findValidWords(String[] allWords) {
 
 			List<String> validWords = new ArrayList<String>();
 
